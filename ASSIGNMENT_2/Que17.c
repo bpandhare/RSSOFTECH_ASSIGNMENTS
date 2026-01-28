@@ -19,14 +19,14 @@ int main() {
     }
     
     printf("\n\nItem-wise Details:\n");
-    printf("------------------------------------------------\n");
+    
     printf("Item\tQuantity\tRate\t\tAmount\n");
-    printf("------------------------------------------------\n");
+    
     for(i = 0; i < 3; i++) {
         printf("%d\t%.2f\t\t%.2f\t\t%.2f\n", 
                i + 1, quantity[i], rate[i], amount[i]);
     }
-    printf("------------------------------------------------\n");
+   
     printf("Total Sales Amount: Rs. %.2f\n", total_amount);
     
    
